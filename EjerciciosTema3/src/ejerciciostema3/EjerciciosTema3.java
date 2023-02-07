@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejerciciostema3;
 
-/**
- *
- * @author andre
- */
 public class EjerciciosTema3 {
-
-    /**
-     * @param args the command line arguments
-     */
+    //Creamos la funcion suma
+    public static int suma(int num1, int num2, int num3) {
+    return num1 + num2 + num3;
+  }
     public static void main(String[] args) {
-        // TODO code application logic here
+    //llamamos a la funcion y le damos valores
+    int resultado = suma(5, 7, 3);
+    System.out.println("La suma de los 3 numeros es: " + resultado);
     }
     
 }
