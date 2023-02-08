@@ -1,17 +1,18 @@
 package ejercicios_tema_3;
 
 public class Coche {
-  private int numPuertas;
 
-  public Coche(int numPuertas) {
-    this.numPuertas = numPuertas;
-  }
+    private int numPuertas;
 
-  public void agregarPuerta() {
-    this.numPuertas++;
-  }
+    public Coche(int numPuertas) {
+        this.numPuertas = numPuertas;
+    }
 
-  public int getNumPuertas() {
-    return this.numPuertas;
-  }
+    public void agregarPuerta() {
+        this.numPuertas++;
+    }
+
+    public int getNumPuertas() {
+        return this.numPuertas;
+    }
 }
