@@ -1,4 +1,4 @@
-package ejerciciostema3;
+package ejercicios_tema_3;
 
 public class EjerciciosTema3 {
     //Creamos la funcion suma
